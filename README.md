@@ -2,7 +2,7 @@
 
 ## Executive Summary
 
-Artificial Intelligence (AI) is transforming healthcare by improving clinical workflows, reducing operational delays, and supporting healthcare professionals in decision-making. 
+Artificial Intelligence (AI) is transforming healthcare by improving clinical workflows, reducing operational delays, and supporting healthcare professionals in decision-making.
 
 This project analyzes the impact of implementing an AI-assisted diagnostic system within a healthcare environment. The goal is to evaluate whether AI improves operational efficiency, diagnostic quality, and clinician productivity.
 
@@ -168,24 +168,23 @@ This project will continue into:
 
 The analysis evaluated the impact of AI-assisted diagnostics by comparing healthcare workflow performance between AI-assisted and non-AI-assisted cases.
 
-The analysis focused on three main areas:
+The analysis focused on three primary areas:
 
-- Turnaround time improvement
-- Error reduction
+- Operational efficiency
+- AI recommendation agreement
 - Department-level workflow performance
-
 --
 
 ## 1. AI Improved Diagnostic Turnaround Time
 
-The analysis showed that AI-assisted cases had a significantly lower average turnaround time compared to non-AI-assisted cases.
+The first analysis measured whether AI assistance improved healthcare workflow efficiency.
 
 ### Average Turnaround Time Comparison
 
-|  Workflow Type  | Average Turnaround Time |
-|-----------------|-------------------------|
-| Non-AI Assisted | 19.05 hours             |
-| AI Assisted     | 9.66 hours              |
+| Workflow Type | Average Turnaround Time |
+|---|---:|
+| Non-AI Assisted | 19.05 hours |
+| AI Assisted | 9.66 hours |
 
 AI-assisted workflows reduced average turnaround time by:
 
@@ -195,58 +194,81 @@ This represents approximately:
 
 **49.3% reduction in turnaround time**
 
-The results suggest that AI support can help healthcare teams complete diagnostic workflows faster and improve operational efficiency.
+The results indicate that AI assistance can significantly reduce processing time and improve operational efficiency within healthcare workflows.
 
 ---
 
-## 2. AI Adoption and Diagnostic Amendment Analysis
+## 2. AI Demonstrated Strong Clinical Agreement
 
-The dataset included 3,000 simulated healthcare cases to evaluate report amendment requirements.
+The AI concordance analysis measured how often clinicians agreed with the AI-assisted recommendation.
 
-### Amendment Distribution
+### AI Concordance Results
 
-|  Amendment Required   | Number of Cases |
-|-----------------------|-----------------|
-| No Amendment Required | 1,192           |
-| Amendment Required    | 1,808		  |
+| AI Recommendation Outcome | Percentage |
+|---|---:|
+| Agreed | 91% |
+| Disagreed | 9% |
 
-The analysis identified a higher number of amendment cases within the dataset.
+The results show that AI recommendations aligned with clinician decisions in the majority of cases.
 
-Further investigation is recommended to analyze amendment rates by:
+A 91% agreement rate suggests that AI can provide valuable decision support while maintaining clinician oversight.
 
-- AI-assisted vs non-AI-assisted cases
-- Department
-- Case complexity
-- Clinician workflow patterns
+The 9% disagreement rate highlights opportunities for additional review, including:
 
-This highlights the importance of monitoring AI performance using quality-focused metrics in addition to efficiency metrics.
+- Complex cases
+- AI model improvement
+- Workflow optimization
 
 ---
 
 ## 3. Department Performance Analysis
 
-AI-assisted workflows improved turnaround time across all healthcare departments.
+AI-assisted workflows improved turnaround time across all departments.
 
 | Department | Non-AI Average TAT | AI Average TAT |
-|------------|--------------------|----------------|
-| Cardiology | 19.21 hrs          | 9.56 hrs       |
-| Oncology   | 18.28 hrs          | 9.18 hrs       |
-| Pathology  | 19.58 hrs          | 9.74 hrs       |
-| Radiology  | 19.22 hrs          | 10.12 hrs      |
+|---|---:|---:|
+| Cardiology | 19.21 hrs | 9.56 hrs |
+| Oncology | 18.28 hrs | 9.18 hrs |
+| Pathology | 19.58 hrs | 9.74 hrs |
+| Radiology | 19.22 hrs | 10.12 hrs |
+
 
 Key observations:
 
-- Oncology showed the lowest AI-assisted turnaround time at **9.18 hours**
-- Cardiology achieved a reduction of approximately **50%**
-- Pathology and Radiology also showed significant workflow improvement
+- Oncology achieved the fastest AI-assisted turnaround time at **9.18 hours**
+- Cardiology reduced turnaround time from **19.21 hours to 9.56 hours**
+- All departments showed improved workflow efficiency with AI assistance
 
-The consistent reduction across departments suggests AI assistance can improve efficiency regardless of clinical specialty.
+
+The consistency across departments suggests AI can provide operational benefits across different clinical areas.
+
+---
+
+## 4. Amendment Analysis
+
+The dataset also tracked whether cases required amendments after the initial report.
+
+### Amendment Distribution
+
+| Amendment Status | Number of Cases |
+|---|---:|
+| No Amendment Required | 1,192 |
+| Amendment Required | 1,808 |
+
+This result requires additional analysis because amendment frequency may be influenced by multiple factors, including:
+
+- Case complexity
+- Department type
+- Clinician workflow
+- AI usage patterns
+
+Future analysis should evaluate amendment rates specifically between AI-assisted and non-AI-assisted cases.
 
 ---
 
 # Business Recommendation
 
-Based on the analysis, AI-assisted diagnostic technology shows potential to improve healthcare operational performance.
+Based on the analysis, AI-assisted diagnostics demonstrate potential to improve healthcare operations.
 
 Recommended actions:
 
@@ -264,9 +286,11 @@ Recommended actions:
 
 # Key Business Insight
 
-The analysis demonstrates that AI can provide measurable improvements in healthcare workflow efficiency.
+The analysis demonstrates that AI can improve healthcare workflow efficiency while providing strong decision-support capability.
 
-While AI reduced turnaround time by nearly 50%, additional quality analysis is needed to determine its long-term impact on diagnostic accuracy and reporting improvements.
+AI-assisted cases reduced turnaround time by approximately **49.3%** and achieved a **91% clinician agreement rate**, showing potential value for improving healthcare operations.
+
+Continued monitoring of quality metrics is recommended to measure long-term AI effectiveness.
 
 ---
 
