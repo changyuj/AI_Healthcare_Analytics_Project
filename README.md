@@ -317,12 +317,20 @@ Key metrics:
 
 ## Tableau Development
 
-The Tableau version will focus on:
+The Power BI dashboard was recreated in Tableau to demonstrate interactive data storytelling.
 
-- Advanced storytelling
-- Interactive visual analytics
-- Healthcare leadership reporting
+Tableau features used:
 
+- Calculated Fields
+- Dashboard Design
+- Interactive Filters
+- Storytelling Features
+
+Key insights:
+
+- AI reduced turnaround time by 49.3%
+- AI achieved 91% clinician agreement
+- AI improved workflow performance across departments
 ---
 
 ## Python Analytics
